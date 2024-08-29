@@ -24,8 +24,8 @@ mkdir nano integrantes.txt #Abre editor de texto nano y se crea el archivo integ
 cat /etc/apt/sources.list #Abre el archivo sources.list donde estan las rutas de los repositorios
 apt update #Busca actualizaciones disponibles
 apt upgrade #Se actualizan los repositorios de la maquina
-apt install squid #instala el servicio squid
-apt install nginx #Instala el servicio nginx
+apt install Prometheus #instala el servicio Prometheus
+apt install Samba #Instala el servicio Samba
 apt install docker.io #Instala el servicio docker.io
 systemctl mask docker #Deshabilita el servicio por completo
 systemctl list-unit-files --type service -all #Muestra la lista de todos los servicios instalados en la maquina con sus estados
